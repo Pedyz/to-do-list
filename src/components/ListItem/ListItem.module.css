@@ -1,0 +1,29 @@
+.itemDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #d90429;
+    padding: 4px 32px 4px 18px ;
+    border-radius: 14px;
+    gap: 6px;
+    position: relative;
+    cursor: pointer;
+    flex-grow: 1;
+}
+
+.itemDiv:hover {
+    background-color: #b6001e;
+}
+
+.itemDiv p {
+    position: absolute;
+    right: 12px;
+    user-select: none;
+    font-weight: bold;
+}
+
+.itemDiv p:hover {
+    color: black;
+}
+
+
