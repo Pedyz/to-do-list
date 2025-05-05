@@ -1,11 +1,10 @@
-main {
+.mainDiv {
     width: 100vw;
     height: 91.2vh;
     display: flex;
     flex-direction: column;
     align-items: start;
-    font-family: 'karla', 'sans-serif';
-    background-image: url('../../images/background.png');
+    background-image: url('./images/background.png');
     background-size: cover;
 }
 

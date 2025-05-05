@@ -12,7 +12,7 @@ function Home() {
     return (
         <div>
             <Navbar /> 
-            <main>
+            <main className={Style.mainDiv}>
                 <div className={Style.textContainer}>
                     <h1 className={Style.title}>TO DO LIST</h1>
                     <h3>This is a simple To-Do List application built to practice fundamental web development concepts. It allows users to add, mark as completed, and remove tasks, helping organize daily activities quickly and efficiently.</h3>
