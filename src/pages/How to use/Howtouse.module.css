@@ -1,0 +1,28 @@
+.mainDiv {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #ffc9ca, #ba181b);
+    width: 100vw;
+    height: 91.2vh;
+}
+
+.mainDiv h2 {
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 3rem;
+}
+
+.mainDiv ol {
+    margin-top: 20px;
+    margin-left: 50px;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.mainDiv a {
+    color: #ba181b;
+}
+
+.mainDiv a:active {
+    color: #831012;
+}
