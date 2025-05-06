@@ -6,6 +6,8 @@
     user-select: none;
     overflow: hidden;
     color: white;
+    position: fixed;
+    top: 0;
 }
 
 ul {
