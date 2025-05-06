@@ -3,11 +3,11 @@
     flex-direction: column;
     background: linear-gradient(to bottom, #ffc9ca, #ba181b);
     width: 100vw;
-    height: 91.2vh;
+    height: 100vh;
 }
 
 .mainDiv h2 {
-    margin-top: 150px;
+    margin-top: 250px;
     margin-left: 50px;
     font-size: 3rem;
 }
