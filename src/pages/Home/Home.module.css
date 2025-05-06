@@ -36,3 +36,23 @@
     color: white;
     transition: 0.5s;
 }
+
+@media only screen and (max-width: 767px) {
+    .title {
+        font-size: 4rem
+    }
+
+    .textContainer {
+        width: 500px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .startBtn {
+        margin-left: 0
+    }
+
+    .mainDiv {
+        align-items: center;
+    }
+}
