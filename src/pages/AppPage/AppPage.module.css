@@ -20,7 +20,7 @@
 }
 
 .inputDiv input {
-    margin-top: 10px;
+    margin-top: 20px;
     font-size: 1.2rem;
     padding: 12px 32px;
     width: 500px;
@@ -43,4 +43,17 @@
     flex-wrap: wrap;
     gap: 8px;
     overflow: hidden;
+}
+
+@media only screen and (max-width: 767px) {
+    .inputDiv input {
+        width: 350px;
+    }
+    .inputDiv h2 {
+        font-size: 2.25rem;
+    }
+    .listDiv {
+        max-height: 450px;
+    }
+        
 }
